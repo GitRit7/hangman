@@ -1,4 +1,4 @@
-HANGMAN
+HANGMAN 0_0
 
 Get 6 chances to guess the word.
 
@@ -15,7 +15,7 @@ how to run
 
     javac Main.java
     java Main
-    
+
     (for this, java path should be created already)
 
 future improvements:
