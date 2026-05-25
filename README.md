@@ -23,7 +23,6 @@ or open in terminal:-
 
 future improvements:
 
-use file handling to put word to guess in a different file
 add GUI
 
 Author: GitRit7, college student.
