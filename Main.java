@@ -1,8 +1,16 @@
 import java.util.Scanner;
+import java.io.File;
+import java.io.FileNotFoundException;
 public class Main{
-    public static void main(String args[]){
+    public static void main(String args[]) throws FileNotFoundException{
         System.out.println("HANGMAN-guess word, 6 turns");
-        String word = "mountain";
+
+        File f = new File("C:/Users/RD/Documents/hangman/word.txt");
+        Scanner reader = new Scanner(f);
+
+        String word = reader.nextLine();
+
+        reader.close();
         
         Scanner sc = new Scanner(System.in);
 
