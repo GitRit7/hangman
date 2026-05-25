@@ -11,6 +11,8 @@ public class Main{
         String word = reader.nextLine();
 
         reader.close();
+
+        System.out.println("Word length:"+word.length());
         
         Scanner sc = new Scanner(System.in);
 
